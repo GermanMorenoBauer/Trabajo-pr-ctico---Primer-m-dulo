@@ -243,7 +243,7 @@ todo el resto un 40%. Los menores de edad no abonan impuestos.
 ● Ejemplo: Si la entrada fuera la edad 18 e ingreso 1000, la salida esperada debería ser
 100*/
 
-function calcularimpuestos(edad, ingresosMensuales) {
+function calcularImpuestos(edad, ingresosMensuales) {
     var impuestoAAbonar;
     if (edad >= 18 && edad <= 20) {
         ingresosMensuales = (ingresosMensuales / 100) * 10;
@@ -260,7 +260,7 @@ function calcularimpuestos(edad, ingresosMensuales) {
     return impuestoAAbonar;
 }
 
-console.log(calcularimpuestos(18, 18000));
+console.log(calcularImpuestos(18, 18000));
 
 /*
 10) Resumen de cantidad de likes:
